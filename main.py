@@ -4,6 +4,8 @@ import json
 
 
 class Admin:
+    def __init__(self):
+        None
     def create_user(self, name, cnic, age, pswrd, addr, dep ):
         self.name = name
         self.cnic = cnic

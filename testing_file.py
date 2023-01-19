@@ -104,8 +104,8 @@ class Admin:
 
 
 obj = Admin()
-#obj.set_user_profile()
-#obj.view_user_details()
+obj.set_user_profile()
+obj.view_user_details()
 obj.admin_profile()
 
 

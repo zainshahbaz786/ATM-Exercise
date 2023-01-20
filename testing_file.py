@@ -48,12 +48,12 @@ class Admin:
         self.create_user(name, c_id, u_age, paswrd, addr, deposit)
 
     @staticmethod
-    def view_user_details(self):
-        dummy = str(input("Enter the CNIC OF User to view his Account Details: "))
-        file_name = "Accounts/{}.json".format(dummy)
+    def view_user_details( cnic):
+        file_name = "Accounts/{}.json".format(cnic)
         with open(file_name, 'r') as f2:
             data = f2.read()
             print(data)
+            f2.close()
     def admin_profile(self):
         admin_dict = {
             "admin": "admin123"
@@ -102,11 +102,21 @@ class Admin:
 
 
 
-
+print("                     Amin Panel")
+print("1.Create User Profile \n2.View User Profile \n3.Access Admin Profile \n4.For Exit Admin Panel ")
 obj = Admin()
-obj.set_user_profile()
-obj.view_user_details()
-obj.admin_profile()
+option = 1000
+while option !=0:
+    option = int(input("Enter your option: "))
+    if option == 1:
+        obj.set_user_profile()
+    elif option == 2:
+        dummy = str(input("Enter the CNIC OF User to view his Account Details: "))
+        obj.view_user_details(dummy)
+    elif option == 3:
+        obj.admin_profile()
+    elif option == 4:
+        exit()
 
 
 

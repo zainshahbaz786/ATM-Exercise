@@ -2,7 +2,42 @@
 
 {
       "CNIC": "111",
-      "Transaction Amount": 4,
-      "Time": "19/01/2023 22:46:03",
-      "Remaining": 1327
+      "Transaction Amount": 23,
+      "Time": "20/01/2023 13:51:06",
+      "Remaining": 1257
 }
+,
+{
+      "CNIC": "111",
+      "Transaction Amount": 2,
+      "Time": "20/01/2023 13:51:21",
+      "Remaining": 1255
+}
+
+ {
+      "CNIC": "111",
+      "Transaction Amount": 3,
+      "Time": "20/01/2023 13:52:30",
+      "Remaining": 1252
+},
+
+ {
+      "CNIC": "111",
+      "Transaction Amount": 4,
+      "Time": "20/01/2023 13:52:40",
+      "Remaining": 1248
+},
+
+ {
+      "CNIC": "111",
+      "Transaction Amount": 1,
+      "Time": "20/01/2023 13:53:21",
+      "Remaining": 1247
+},
+
+ {
+      "CNIC": "111",
+      "Transaction Amount": 3,
+      "Time": "20/01/2023 13:53:27",
+      "Remaining": 1244
+},
